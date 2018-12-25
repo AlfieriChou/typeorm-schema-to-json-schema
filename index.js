@@ -1,5 +1,4 @@
 const convert = (model) => {
-  console.log('----->', model)
   const modelSchema = model.options.columns
   let schema = {
     type: 'object',
