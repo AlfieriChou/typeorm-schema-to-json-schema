@@ -1,0 +1,25 @@
+{
+  "name": "typeorm-schema-to-json-schema",
+  "version": "1.0.0",
+  "description": "Typeorm entitySchema to json schema.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlfieriChou/typeorm-schema-to-json-schema.git"
+  },
+  "keywords": [
+    "json-schema",
+    "typeorm",
+    "schema",
+    "typescript"
+  ],
+  "author": "AlfieriChou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlfieriChou/typeorm-schema-to-json-schema/issues"
+  },
+  "homepage": "https://github.com/AlfieriChou/typeorm-schema-to-json-schema#readme"
+}
