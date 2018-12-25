@@ -1,6 +1,6 @@
 {
   "name": "typeorm-schema-to-json-schema",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Typeorm entitySchema to json schema.",
   "main": "index.js",
   "scripts": {

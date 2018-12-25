@@ -13,7 +13,7 @@ describe('test typeorm schema to json schema!!!', () => {
   it('schema mast have properties perproty!!', () => {
     schema.should.hasOwnProperty('properties')
   })
-  it('schema type is match object!!', () => {
+  it('schema type match object!!', () => {
     schema['type'].should.match('object')
   })
   it('schema properties is object!!', () => {

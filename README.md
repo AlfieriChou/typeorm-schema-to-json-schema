@@ -1,4 +1,11 @@
 # typeorm-schema-to-json-schema
+
+[![NPM version][npm-image]][npm-url]
+[![Dependency Status][daviddm-image]][daviddm-url]
+[![license][license-image]][license-url]
+
+[![standard][standard-image]][standard-url]
+
 Typeorm entitySchema to json schema.
 
 ### Install
@@ -38,3 +45,15 @@ npm install typeorm-schema-to-json-schema
 
     const schema = convert(Cat)
     ```
+
+
+[npm-image]: https://badge.fury.io/js/typeorm-schema-to-json-schema.svg
+[npm-url]: https://npmjs.org/package/typeorm-schema-to-json-schema
+[daviddm-image]: https://david-dm.org/AlfieriChou/typeorm-schema-to-json-schema.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/AlfieriChou/typeorm-schema-to-json-schema
+[license-image]: https://img.shields.io/badge/License-MIT-yellow.svg
+[license-url]: https://opensource.org/licenses/MIT
+[standard-image]:
+https://cdn.rawgit.com/standard/standard/master/badge.svg
+[standard-url]:
+https://github.com/standard/standard
