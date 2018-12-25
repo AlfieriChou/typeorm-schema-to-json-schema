@@ -1,10 +1,10 @@
 {
   "name": "typeorm-schema-to-json-schema",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typeorm entitySchema to json schema.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --exit"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/AlfieriChou/typeorm-schema-to-json-schema/issues"
   },
-  "homepage": "https://github.com/AlfieriChou/typeorm-schema-to-json-schema#readme"
+  "homepage": "https://github.com/AlfieriChou/typeorm-schema-to-json-schema#readme",
+  "dependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.3",
+    "typeorm": "^0.2.9"
+  }
 }
