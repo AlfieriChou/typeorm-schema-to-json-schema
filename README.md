@@ -1,7 +1,6 @@
 # typeorm-schema-to-json-schema
 
 [![NPM version][npm-image]][npm-url]
-[![Dependency Status][daviddm-image]][daviddm-url]
 [![license][license-image]][license-url]
 
 [![standard][standard-image]][standard-url]
@@ -44,13 +43,20 @@ npm install typeorm-schema-to-json-schema
     const Cat = require('./cat')
 
     const schema = convert(Cat)
+    console.log('------>', schema)
+
+    // ------->, {
+    //      type: 'object',
+    //      properties: {
+    //          id: { type: 'number' },
+    //          name: { type: 'string' }
+    //      }
+    // }
     ```
 
 
 [npm-image]: https://badge.fury.io/js/typeorm-schema-to-json-schema.svg
 [npm-url]: https://npmjs.org/package/typeorm-schema-to-json-schema
-[daviddm-image]: https://david-dm.org/AlfieriChou/typeorm-schema-to-json-schema.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/AlfieriChou/typeorm-schema-to-json-schema
 [license-image]: https://img.shields.io/badge/License-MIT-yellow.svg
 [license-url]: https://opensource.org/licenses/MIT
 [standard-image]:
