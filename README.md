@@ -7,53 +7,53 @@
 
 Typeorm entitySchema to json schema.
 
-### Install
+## Install
 
-```
+```shell
 npm install typeorm-schema-to-json-schema
 ```
 
-### Get started
+## Get started
 
-* cat.js
+* Cat model
 
-    ```javascript
-    const { EntitySchema } = require('typeorm')
+  ```javascript
+  const { EntitySchema } = require('typeorm')
 
-    const Cat = new EntitySchema({
+  const Cat = new EntitySchema({
     name: 'cats',
     columns: {
-        id: {
+      id: {
         type: Number,
         primary: true,
         generated: true
-        },
-        name: {
+      },
+      name: {
         type: String
-        }
+      }
     }
-    })
+  })
 
-    module.exports = Cat
-    ```
+  module.exports = Cat
+  ```
 
-* convert.js
-    ```javascript
-    const convert = require('typeorm-schema-to-json-schema')
-    const Cat = require('./cat')
+* convert model
 
-    const schema = convert(Cat)
-    console.log('------>', schema)
+```javascript
+const convert = require('typeorm-schema-to-json-schema')
+const Cat = require('./cat')
 
-    // ------->, {
-    //      type: 'object',
-    //      properties: {
-    //          id: { type: 'number' },
-    //          name: { type: 'string' }
-    //      }
-    // }
-    ```
+const schema = convert(Cat)
+console.log(schema)
 
+ // {
+//    type: 'object',
+//    properties: {
+//      id: { type: 'number', primary: true, generated: true },
+//      name: { type: 'string' }
+//   }
+// }
+```
 
 [npm-image]: https://badge.fury.io/js/typeorm-schema-to-json-schema.svg
 [npm-url]: https://npmjs.org/package/typeorm-schema-to-json-schema

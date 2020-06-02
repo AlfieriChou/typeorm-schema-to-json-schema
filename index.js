@@ -1,16 +1,20 @@
 const convert = (model) => {
-  const modelSchema = model.options.columns
-  let schema = {
+  const columns = model.options.columns || {}
+  return Object.entries(columns).reduce((jsonSchema, [key, value]) => {
+    return {
+      type: jsonSchema.type,
+      properties: {
+        ...jsonSchema.properties,
+        [key]: {
+          ...value,
+          type: value.type.name.toLocaleLowerCase()
+        }
+      }
+    }
+  }, {
     type: 'object',
     properties: {}
-  }
-  for (let item in modelSchema) {
-    const prop = schema['properties']
-    prop[item] = {
-      type: modelSchema[item].type.name.toLocaleLowerCase()
-    }
-  }
-  return schema
+  })
 }
 
 module.exports = convert

@@ -1,11 +1,19 @@
-Dec 25, 2018
+# changelog
 
-    * release v1.0.2
+## Jun 2, 2020
 
-        * convert typeorm schema to json schema
-        * update readme.md
-        * add changelog.md
+* release v1.0.3
 
-    * release v1.0.1
+  * refactor: project
 
-        * create project
+## Dec 25, 2018
+
+* release v1.0.2
+
+  * convert typeorm schema to json schema
+  * update readme.md
+  * add changelog.md
+
+* release v1.0.1
+
+  * create project
