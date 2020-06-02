@@ -591,10 +591,10 @@ mkdirp@^1.0.3:
   resolved "https://registry.npm.taobao.org/mkdirp/download/mkdirp-1.0.4.tgz?cache=0&sync_timestamp=1588819864223&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmkdirp%2Fdownload%2Fmkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha1-PrXtYmInVteaXw4qIh3+utdcL34=
 
-mocha@^7.2.0:
+mocha@7.2.0:
   version "7.2.0"
-  resolved "https://registry.npm.taobao.org/mocha/download/mocha-7.2.0.tgz#01cc227b00d875ab1eed03a75106689cfed5a604"
-  integrity sha1-AcwiewDYdase7QOnUQZonP7VpgQ=
+  resolved "https://registry.yarnpkg.com/mocha/-/mocha-7.2.0.tgz#01cc227b00d875ab1eed03a75106689cfed5a604"
+  integrity sha512-O9CIypScywTVpNaRrCAgoUnJgozpIofjKUYmJhiCIJMiuYnLI6otcb1/kpW9/n/tJODHGZ7i8aLQoDVsMtOKQQ==
   dependencies:
     ansi-colors "3.2.3"
     browser-stdout "1.3.1"
@@ -839,10 +839,10 @@ should-util@^1.0.0:
   resolved "https://registry.npm.taobao.org/should-util/download/should-util-1.0.1.tgz#fb0d71338f532a3a149213639e2d32cbea8bcb28"
   integrity sha1-+w1xM49TKjoUkhNjni0yy+qLyyg=
 
-should@^13.2.3:
+should@13.2.3:
   version "13.2.3"
-  resolved "https://registry.npm.taobao.org/should/download/should-13.2.3.tgz#96d8e5acf3e97b49d89b51feaa5ae8d07ef58f10"
-  integrity sha1-ltjlrPPpe0nYm1H+qlro0H71jxA=
+  resolved "https://registry.yarnpkg.com/should/-/should-13.2.3.tgz#96d8e5acf3e97b49d89b51feaa5ae8d07ef58f10"
+  integrity sha512-ggLesLtu2xp+ZxI+ysJTmNjh2U0TsC+rQ/pfED9bUZZ4DKefP27D+7YJVVTvKsmjLpIi9jAa7itwDGkDDmt1GQ==
   dependencies:
     should-equal "^2.0.0"
     should-format "^3.0.3"
