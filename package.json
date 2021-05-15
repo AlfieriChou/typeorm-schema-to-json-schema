@@ -25,7 +25,7 @@
     "typeorm": "^0.2.25"
   },
   "devDependencies": {
-    "mocha": "^7.2.0",
+    "mocha": "8.4.0",
     "should": "^13.2.3"
   }
 }
